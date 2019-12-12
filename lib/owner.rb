@@ -12,5 +12,5 @@ def say_species
   "I am a #{@species}."
 end 
 
-
+def self. all 
 end
