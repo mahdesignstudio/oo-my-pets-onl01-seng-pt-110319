@@ -23,6 +23,7 @@ class Owner
   def self.reset_all
     self.all.clear
   end 
+  #Associations: Owner instance methods 
   
   def cats 
     Cat.all.select { |cat| cat.owner == self }
