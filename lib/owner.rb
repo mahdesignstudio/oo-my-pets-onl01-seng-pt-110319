@@ -7,4 +7,6 @@ class Owner
    @species = "human"
    @@all << self 
   end 
+  
+def say_species 
 end
